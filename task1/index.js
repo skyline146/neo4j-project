@@ -34,3 +34,5 @@ RETURN length(p)+1
 `);
 
 console.log(`6 bus stops count: ${thirdBusStops}`);
+
+dbConnection.close();
