@@ -1,6 +1,6 @@
 import neo4j from 'neo4j-driver';
 
-const dbAuth = neo4j.auth.basic('neo4j', '36786921397'); // neo4j, 36786921397
+const dbAuth = neo4j.auth.basic('neo4j', '36786921397');
 const dbConnection = neo4j.driver('bolt://localhost:7687', dbAuth, { disableLosslessIntegers: true });
 
 const runQuery = async (query) => {
